@@ -8,21 +8,21 @@
   </div>
   <img alt="logo" class="logo" src="./assets/logo.png">
   <div>
-    <img src="./assets/pil0.gif" class='pil-img'>
+    <img src="./assets/pil0.jpg" class='pil-img'>
     <h4 @click="isOpenModal = true">{{posts[0]}} 피리미리</h4>
     <p>{{comments[0]}}</p>
     <span>{{likeCount[0]}}</span>
     <button @click="likeCount[0]+=1">❤️</button>
   </div>
   <div>
-    <img src="./assets/pil1.gif" class='pil-img'>    
+    <img src="./assets/pil1.jpg" class='pil-img'>    
     <h4 @click="isOpenModal = true">{{posts[1]}} 피리미리</h4>
     <p>{{comments[1]}}</p>
     <span>{{likeCount[1]}}</span>
     <button @click="likeCount[1]+=1">❤️</button>
   </div>
   <div>
-    <img src="./assets/pil2.gif" class='pil-img'>
+    <img src="./assets/pil2.jpg" class='pil-img'>
     <h4 @click="isOpenModal = true">{{posts[2]}} 피리미리</h4>
     <p>{{comments[2]}}</p>
     <span>{{likeCount[2]}}</span>
@@ -59,6 +59,7 @@ body {
 }
 div {
   box-sizing: border-box;
+  margin: 0 0 50px 0;
 }
 h4,button {
   cursor: pointer;
@@ -81,6 +82,7 @@ h4,button {
 }
 .logo {
   width: 10%;
+  margin-top: 50px;
 }
 span {
   margin-right: 1rem;
