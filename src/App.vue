@@ -100,7 +100,7 @@ button {
   margin-top: 100px;
   border-radius: 20px;
    @media all and (max-width: 735px) {
-    width: 50%;
+    width: 200px;
    }
 }
 </style>
