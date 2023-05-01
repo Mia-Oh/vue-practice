@@ -101,6 +101,7 @@ button {
   border-radius: 20px;
    @media only screen and (max-width: 735px) {
     width: 50%;
+    border: 1px solid green;
    }
 }
 </style>
