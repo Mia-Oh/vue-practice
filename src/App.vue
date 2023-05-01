@@ -57,6 +57,9 @@ export default {
 body {
   margin : 0;
 }
+#app {
+  width: 100vw;
+}
 div {
   box-sizing: border-box;
   margin: 0 0 50px 0;
@@ -97,7 +100,7 @@ button {
   margin-top: 100px;
   border-radius: 20px;
    @media only screen and (max-width: 735px) {
-    width: 20rem;
+    width: 15rem;
    }
 }
 </style>

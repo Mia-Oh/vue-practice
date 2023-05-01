@@ -3,9 +3,9 @@
   context: '/home/mia/Desktop/vue-practice',
   output: {
     hashFunction: 'xxhash64',
-    path: '/home/mia/Desktop/vue-practice/dist',
+    path: '/home/mia/Desktop/vue-practice/docs',
     filename: 'js/[name].js',
-    publicPath: '/',
+    publicPath: '/vue-practice/',
     chunkFilename: 'js/[name].js'
   },
   resolve: {
@@ -1219,7 +1219,7 @@
       {
         'process.env': {
           NODE_ENV: '"development"',
-          BASE_URL: '"/"'
+          BASE_URL: '"/vue-practice/"'
         }
       }
     ),
@@ -1251,7 +1251,7 @@
         patterns: [
           {
             from: '/home/mia/Desktop/vue-practice/public',
-            to: '/home/mia/Desktop/vue-practice/dist',
+            to: '/home/mia/Desktop/vue-practice/docs',
             toType: 'dir',
             noErrorOnMissing: true,
             globOptions: {
